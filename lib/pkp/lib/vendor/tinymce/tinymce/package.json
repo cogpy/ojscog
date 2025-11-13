@@ -1,23 +1,3 @@
-{
-	"name": "tinymce",
-	"version": "4.9.11",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/tinymce/tinymce-dist.git"
-	},
-	"description": "Web based JavaScript HTML WYSIWYG editor control.",
-	"author": "Ephox Corporation",
-	"main": "tinymce.js",
-	"license": "LGPL-2.1",
-	"keywords": [
-		"editor",
-		"wysiwyg",
-		"tinymce",
-		"richtext",
-		"javascript",
-		"html"
-	],
-	"bugs": {
-		"url": "https://github.com/tinymce/tinymce/issues"
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c8fe4e944a80b4c07d9aeb4b6c2980900b50c6a0870b755f7f046798a6f02f3c
+size 449

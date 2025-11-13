@@ -1,35 +1,3 @@
-{
-    "name": "symfony/deprecation-contracts",
-    "type": "library",
-    "description": "A generic function and convention to trigger deprecation notices",
-    "homepage": "https://symfony.com",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Nicolas Grekas",
-            "email": "p@tchwork.com"
-        },
-        {
-            "name": "Symfony Community",
-            "homepage": "https://symfony.com/contributors"
-        }
-    ],
-    "require": {
-        "php": ">=7.1"
-    },
-    "autoload": {
-        "files": [
-            "function.php"
-        ]
-    },
-    "minimum-stability": "dev",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.2-dev"
-        },
-        "thanks": {
-            "name": "symfony/contracts",
-            "url": "https://github.com/symfony/contracts"
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d39e6f20a1019bf020b692164ade974e3ae9db3da4a843b1b41b36bf3e603d19
+size 843

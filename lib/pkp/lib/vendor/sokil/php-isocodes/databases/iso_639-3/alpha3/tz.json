@@ -1,1 +1,3 @@
-[{"name":"Tanzanian Sign Language","alpha_3":"tza","scope":"I","type":"L","inverted_name":null,"alpha_2":null},{"name":"Tzeltal","alpha_3":"tzh","scope":"I","type":"L","inverted_name":null,"alpha_2":null},{"name":"Tz'utujil","alpha_3":"tzj","scope":"I","type":"L","inverted_name":null,"alpha_2":null},{"name":"Talossan","alpha_3":"tzl","scope":"I","type":"C","inverted_name":null,"alpha_2":null},{"name":"Central Atlas Tamazight","alpha_3":"tzm","scope":"I","type":"L","inverted_name":"Tamazight, Central Atlas","alpha_2":null},{"name":"Tugun","alpha_3":"tzn","scope":"I","type":"L","inverted_name":null,"alpha_2":null},{"name":"Tzotzil","alpha_3":"tzo","scope":"I","type":"L","inverted_name":null,"alpha_2":null},{"name":"Tabriak","alpha_3":"tzx","scope":"I","type":"L","inverted_name":null,"alpha_2":null}]
+version https://git-lfs.github.com/spec/v1
+oid sha256:8998e5283d42c7343dc8d161599d3ffe3980d5289b06100e008504e7df95b158
+size 808

@@ -1,29 +1,3 @@
-{
-    "name": "symfony/process",
-    "type": "library",
-    "description": "Executes commands in sub-processes",
-    "keywords": [],
-    "homepage": "https://symfony.com",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Fabien Potencier",
-            "email": "fabien@symfony.com"
-        },
-        {
-            "name": "Symfony Community",
-            "homepage": "https://symfony.com/contributors"
-        }
-    ],
-    "require": {
-        "php": ">=7.2.5",
-        "symfony/polyfill-php80": "^1.15"
-    },
-    "autoload": {
-        "psr-4": { "Symfony\\Component\\Process\\": "" },
-        "exclude-from-classmap": [
-            "/Tests/"
-        ]
-    },
-    "minimum-stability": "dev"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c92b56d8ac6038a8f1cb85ab82a934980130d42c4d878b611f2ebb350c448958
+size 716

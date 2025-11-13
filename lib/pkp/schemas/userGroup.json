@@ -1,30 +1,3 @@
-{
-	"title": "UserGroup",
-	"description": "A user group assigned to one of the allowed roles.",
-	"properties": {
-		"abbrev": {
-			"$ref": "#/definitions/LocaleObject"
-		},
-		"id": {
-			"type": "integer"
-		},
-		"name": {
-			"$ref": "#/definitions/LocaleObject"
-		},
-		"permitSelfRegistration": {
-			"type": "boolean"
-		},
-		"recommendOnly": {
-			"type": "boolean"
-		},
-		"roleId": {
-			"type": "integer",
-			"validation": [
-				"in:16,1,17,65536,4096,4097,1048576,209715"
-			]
-		},
-		"showTitle": {
-			"type": "boolean"
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:922271d0a743cd2e890e3be90ecf564a78ac5f748350ec7fbc2fa853bc117b3e
+size 527

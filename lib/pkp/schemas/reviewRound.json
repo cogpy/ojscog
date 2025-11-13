@@ -1,22 +1,3 @@
-{
-	"title": "Review Round",
-	"description": "A round of review assignments in the review stage.",
-	"properties": {
-		"id": {
-			"type": "integer"
-		},
-		"round": {
-			"type": "integer"
-		},
-		"stageId": {
-			"type": "integer"
-		},
-		"status": {
-			"type": "string",
-			"readOnly": true
-		},
-		"statusId": {
-			"type": "integer"
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:34b521c06d78ac2cb3839c252ad18424836b2dffb946b8be938c9581c4d7893e
+size 337

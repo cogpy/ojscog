@@ -1,1 +1,3 @@
-[{"name":"Uzbek","alpha_3":"uzb","scope":"M","type":"L","inverted_name":null,"alpha_2":"uz"},{"name":"Northern Uzbek","alpha_3":"uzn","scope":"I","type":"L","inverted_name":"Uzbek, Northern","alpha_2":null},{"name":"Southern Uzbek","alpha_3":"uzs","scope":"I","type":"L","inverted_name":"Uzbek, Southern","alpha_2":null}]
+version https://git-lfs.github.com/spec/v1
+oid sha256:ab1defa20457e2042c618a1d3bc2e466a6f301aef7e0fdd997e30ebaa41019f2
+size 321
