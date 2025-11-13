@@ -1,7 +1,3 @@
-{
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-    "ghcr.io/devcontainers/features/github-cli:1": {},
-    "ghcr.io/devcontainers/features/php:1": {}
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:63d197cfe4d8759cf4aeeba8e9295637cf89c066fa540c5a9c65cc02205419b8
+size 184

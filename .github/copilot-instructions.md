@@ -1,24 +1,17 @@
-# Enhanced Open Journal Systems with SKZ Autonomous Agents
+# Enhanced OJS with SKZ Autonomous Agents
 
-Enhanced Open Journal Systems (OJS) integrated with the SKZ (Skin Zone Journal) autonomous agents framework for intelligent academic publishing workflow automation.
+**OJS + 7 Autonomous AI Agents** for academic publishing workflow automation. This is a polyglot system combining PHP (OJS core), Python (AI agents), and React (dashboards).
 
-**Always reference these instructions first and fallback to search or bash commands only when you encounter unexpected information that does not match the info here.**
-
-## 📋 Table of Contents
-- [Working Effectively](#working-effectively) - Setup, builds, tests, running the app
-- [Architecture & Integration](#architecture-patterns) - Multi-layer architecture, agent communication
-- [Critical Reminders](#critical-reminders) - Essential warnings and best practices
-- [Common Issues](#common-issues-and-workarounds) - Troubleshooting guide
-- [Agent Development](#agent-development-patterns) - Extending the system
+**Always reference these instructions first** - fallback to search/bash only when you encounter unexpected information.
 
 ## 🚀 Quick Start for AI Agents
 
-**Three Critical Facts**:
+**Three Critical Non-Negotiables**:
 1. **NEVER CANCEL long-running commands** - Composer: 35+ min, Tests: 15+ min, set 60+ min timeouts
-2. **Always use production AI inference** - llama.cpp/BERT required, ZERO tolerance for mocks/placeholders
-3. **Auto-commit enabled** - All changes automatically committed via `auto_commit.py`
+2. **ZERO tolerance for mock/placeholder AI** - Use llama.cpp/BERT/transformers, quantized models for fallbacks
+3. **Auto-commit enabled** - All changes committed via `auto_commit.py` (per `.windsurfrules`)
 
-**Immediate Productivity**:
+**Get Productive Immediately**:
 ```bash
 # First-time setup (takes 35+ minutes for Composer - NEVER CANCEL)
 cp config.TEMPLATE.inc.php config.inc.php
