@@ -1,0 +1,43 @@
+graph TB
+    subgraph Phase1["Phase 1: Expressive Mode (Steps 1-4)"]
+        S1["Step 1: Manuscript Reception<br/>Agent: Submission Assistant<br/>Input: Raw manuscript file<br/>Output: Structured manuscript data"]
+        S2["Step 2: Quality Assessment<br/>Agent: Content Quality<br/>Input: Structured manuscript data<br/>Output: Quality scores + recommendation"]
+        S3["Step 3: Expertise Matching<br/>Agent: Research Discovery<br/>Input: Manuscript data + quality scores<br/>Output: Research areas + potential reviewers"]
+        S4["Step 4: Task Distribution<br/>Agent: Editorial Orchestration<br/>Input: All Expressive phase data<br/>Output: Workflow instance + task assignments"]
+        
+        S1 --> S2
+        S2 --> S3
+        S3 --> S4
+    end
+    
+    subgraph Phase2["Phase 2: Reflective Mode (Steps 5-8)"]
+        S5["Step 5: Pivotal Relevance Realization ⭐<br/>Agent: Editorial Orchestration + Research Discovery<br/>Input: All Expressive phase data<br/>Output: Relevance score + proceed/reject decision"]
+        S6["Step 6: Review Coordination<br/>Agent: Review Coordination<br/>Input: Relevance score + decision<br/>Output: Completed peer reviews"]
+        S7["Step 7: Conflict Resolution<br/>Agent: Editorial Orchestration<br/>Input: Completed peer reviews<br/>Output: Consolidated recommendations"]
+        S8["Step 8: Quality Validation<br/>Agent: Content Quality<br/>Input: Consolidated recommendations<br/>Output: Final quality report"]
+        
+        S5 --> S6
+        S6 --> S7
+        S7 --> S8
+    end
+    
+    subgraph Phase3["Phase 3: Anticipatory Mode (Steps 9-12)"]
+        S9["Step 9: Pivotal Relevance Realization ⭐<br/>Agent: Editorial Orchestration<br/>Input: All Reflective phase data<br/>Output: Final editorial decision"]
+        S10["Step 10: Production Planning<br/>Agent: Publishing Production<br/>Input: Final editorial decision<br/>Output: Production-ready manuscript"]
+        S11["Step 11: Impact Prediction<br/>Agent: Analytics & Monitoring<br/>Input: Production-ready manuscript<br/>Output: Impact predictions + promotion plan"]
+        S12["Step 12: Continuous Learning<br/>Agent: Analytics & Monitoring<br/>Input: All cognitive loop data<br/>Output: Updated patterns + improved models"]
+        
+        S9 --> S10
+        S10 --> S11
+        S11 --> S12
+    end
+    
+    S4 --> S5
+    S8 --> S9
+    S12 -.->|Feedback Loop| S1
+    
+    style S5 fill:#ff9999,stroke:#cc0000,stroke-width:3px
+    style S9 fill:#ff9999,stroke:#cc0000,stroke-width:3px
+    style Phase1 fill:#e6f3ff,stroke:#0066cc,stroke-width:2px
+    style Phase2 fill:#fff4e6,stroke:#ff9900,stroke-width:2px
+    style Phase3 fill:#e6ffe6,stroke:#00cc00,stroke-width:2px
