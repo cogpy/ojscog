@@ -152,3 +152,5 @@ tree*.md
 docs/_build/
 docs/build/
 _site/
+.pyc
+__pycache__/

@@ -1110,10 +1110,6 @@ class ReviewCoordinationAgent(EnhancedAgent):
         except Exception as e:
             logger.error(f"Error calculating coordination score: {e}")
             return 0.5
-            'review_quality': 0.4,
-            'reliability': 0.3,
-            'response_rate': 0.3
-        }
         
         # Subject area hierarchies for cosmetic science
         self.subject_hierarchies = {
